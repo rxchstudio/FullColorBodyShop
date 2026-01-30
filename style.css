@@ -1,0 +1,100 @@
+/* RESET BÁSICO */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f5f5;
+  color: #222;
+}
+
+/* HEADER */
+.hero {
+  height: 30vh;
+  background-image:
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("img/taller.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+}
+
+.hero-logo {
+  width: 200px;      /* tamaño pequeño */
+  height: auto;
+}
+
+.hero-text {
+  color: white;
+}
+
+.hero-text h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.hero-text p {
+  margin: 5px 0 0;
+  font-size: 1.1rem;
+}
+
+/* SECCIONES */
+.section {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* TEXTO CENTRADO */
+.center-text {
+  text-align: center;
+  max-width: 700px;
+  margin: auto;
+}
+
+/* 3 COLUMNAS */
+.three-columns {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.box {
+  background-color: #fff;
+  padding: 30px;
+  flex: 1;
+  min-width: 280px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.box h3 {
+  margin-top: 0;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+  margin: 40px 0 20px;
+}
